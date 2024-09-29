@@ -12,19 +12,17 @@ function App() {
             <div id="about" className="about-section">
                 <h2>About Me</h2>
                 <p>
-                    Hello! I'm Taha, a passionate creative producer with a love for storytelling,
-                    design, and visual arts. With experience in multiple projects across media
-                    production, digital design, and content creation, I bring creativity and
-                    dedication to every project I work on.
+                    Hello! I'm Noor Hasan, a passionate computational media major with a love for front end design and UI/UX.
+                    With experience in multiple projects across web design and development,
+                    I bring creativity and dedication to every project I work on.
                 </p>
                 <p>
-                    I have a background in <strong>design</strong> and <strong>creative production</strong>, and I am always exploring new ways
-                    to enhance user experiences. Outside of work, I enjoy making people laugh with
-                    jokes on Twitter and engaging with my community through various social media platforms.
+                    I have a background in <strong>front end design</strong> and <strong>UI/UX</strong>, and I am always exploring new ways
+                    to enhance user experiences. Outside of my projects, I enjoy spending time with family and friends.
                 </p>
                 <p>
-                    In my free time, you can find me working on personal creative projects, enjoying the outdoors, or honing my skills in
-                    web development and design.
+                    In my free time, you can find me working on personal creative projects, enjoying the outdoors, or
+                    spending time with my cat.
                 </p>
             </div>
 
@@ -35,16 +33,36 @@ function App() {
 
                 <div className="portfolio-items">
                     <div className="portfolio-item">
-                        <h3>Project 1</h3>
-                        <p>Description of project 1</p>
+                        <h3>Parsing and Analyzing Historical English Texts (1500-1700)</h3>
+                        <p>I helped developed a workflow to parse and analyze historical English texts (from the 1500s to
+                            1700s) using the PACE ICE (Parsed Corpus of Early English Correspondence) framework. The
+                            goal was to extract raw text from XML files containing structured linguistic data and then
+                            apply the Levenshtein distance algorithm to compare textual differences and analyze language
+                            variation over time. This project showcases my expertise in data parsing, natural language
+                            processing (NLP), and the application of algorithmic techniques such as Levenshtein distance
+                            for linguistic analysis.</p>
+                        <p>Skilled used: Python, PACE ICE, Pandas, BeautifulSoup</p>
                     </div>
                     <div className="portfolio-item">
-                        <h3>Project 2</h3>
-                        <p>Description of project 2</p>
+                        <h3>Atlanta Food Finder</h3>
+                        <p>Atlanta Food Finder is a web application designed to help citizens of Atlanta find restaurants
+                            and places to eat in their area. Built using Django and Google Maps, this application allows
+                            users to search for restaurants based on location, view them on a map, read reviews, and get
+                            directions. The application serves as a portfolio piece that showcases proficiency in web
+                            development, API integration, and user-centered design.
+                        </p>
+                        <p>Skills used: Python, HTML, Javascript, CSS, DJango, Git, GitHub</p>
                     </div>
                     <div className="portfolio-item">
-                        <h3>Project 3</h3>
-                        <p>Description of project 3</p>
+                        <h3>Portfolio Website</h3>
+                        <p>I designed and developed a personal portfolio website to showcase my skills, experience, and
+                            creative work. The website is fully responsive, ensuring a smooth user experience across
+                            various devices, from desktops to mobile phones.The site is built using React.js, with
+                            styling powered by CSS and deployed on GitHub Pages. This project demonstrates my
+                            proficiency in front-end web development, including responsive design, UI/UX principles,
+                            and component-based architecture.
+                        </p>
+                        <p>Skils used: Javascript, CSS, HTML, React, Git, GitHub</p>
                     </div>
                 </div>
             </div>
