@@ -7,7 +7,7 @@ function HomeScreen() {
             {/* Logo */}
             <header className="header">
                 <div className="logo">
-                    <img src="/path-to-logo.png" alt="logo" />  {/* Replace with the path to your logo */}
+                    <img src="public/logo.png" alt="logo" />  {/* Replace with the path to your logo */}
                 </div>
                 {/* Navigation */}
                 <nav>

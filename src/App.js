@@ -6,18 +6,20 @@ function App() {
     return (
         <div className="App">
             {/* HomeScreen section */}
-            <HomeScreen />
+            <HomeScreen/>
 
             {/* About Me section */}
             <div id="about" className="about-section">
-                <h2>About Me</h2>
+                <h2>ABOUT ME</h2>
                 <p>
-                    Hello! I'm Noor Hasan, a passionate computational media major with a love for front end design and UI/UX.
+                    Hello! I'm Noor Hasan, a passionate computational media major with a love for front end design and
+                    UI/UX.
                     With experience in multiple projects across web design and development,
                     I bring creativity and dedication to every project I work on.
                 </p>
                 <p>
-                    I have a background in <strong>front end design</strong> and <strong>UI/UX</strong>, and I am always exploring new ways
+                    I have a background in <strong>front end design</strong> and <strong>UI/UX</strong>, and I am always
+                    exploring new ways
                     to enhance user experiences. Outside of my projects, I enjoy spending time with family and friends.
                 </p>
                 <p>
@@ -28,13 +30,17 @@ function App() {
 
             {/* Portfolio section */}
             <div id="portfolio" className="portfolio-section">
-                <h2>My Portfolio</h2>
-                <p>Here are some of the projects I've worked on:</p>
+                <h2>MY PORTFOLIO</h2>
+
+                <div className="intro">
+                    <p>HERE ARE SOME PROJECTS I'VE WORKED ON</p>
+                </div>
 
                 <div className="portfolio-items">
                     <div className="portfolio-item">
                         <h3>Parsing and Analyzing Historical English Texts (1500-1700)</h3>
-                        <p>I helped developed a workflow to parse and analyze historical English texts (from the 1500s to
+                        <p>I helped developed a workflow to parse and analyze historical English texts (from the 1500s
+                            to
                             1700s) using the PACE ICE (Parsed Corpus of Early English Correspondence) framework. The
                             goal was to extract raw text from XML files containing structured linguistic data and then
                             apply the Levenshtein distance algorithm to compare textual differences and analyze language
@@ -45,7 +51,8 @@ function App() {
                     </div>
                     <div className="portfolio-item">
                         <h3>Atlanta Food Finder</h3>
-                        <p>Atlanta Food Finder is a web application designed to help citizens of Atlanta find restaurants
+                        <p>Atlanta Food Finder is a web application designed to help citizens of Atlanta find
+                            restaurants
                             and places to eat in their area. Built using Django and Google Maps, this application allows
                             users to search for restaurants based on location, view them on a map, read reviews, and get
                             directions. The application serves as a portfolio piece that showcases proficiency in web
@@ -64,18 +71,29 @@ function App() {
                         </p>
                         <p>Skils used: Javascript, CSS, HTML, React, Git, GitHub</p>
                     </div>
+                    <div className="portfolio-item">
+                        <h3>Spotify Wrapper Experience</h3>
+                        <p>A custom web application designed to enhance the Spotify experience. This project showcases
+                            my skills in UI/UX design and front-end development by creating a clean, user-friendly
+                            interface that allows users to view their listening statistics, explore playlists, and
+                            discover new music. Built using React and Spotify's Web API, the site integrates seamlessly
+                            with Spotify accounts, offering personalized insights in real time. The project highlights
+                            my ability to work with APIs, manage state, and design responsive layouts.
+                        </p>
+                        <p>Skils used: Javascript, CSS, Python, DJango, React, Git, GitHub</p>
+                    </div>
                 </div>
             </div>
 
             {/* Contact section */}
             <div id="contact" className="contact-section">
-                <h2>Contact Me</h2>
+                <h2>CONTACT ME</h2>
                 <p>If you'd like to get in touch, feel free to contact me via the form below:</p>
                 <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-                    <input type="text" name="name" placeholder="Your Name" required />
-                    <input type="email" name="email" placeholder="Your Email" required />
+                    <input type="text" name="name" placeholder="Your Name" required/>
+                    <input type="email" name="email" placeholder="Your Email" required/>
                     <textarea name="message" placeholder="Your Message" required></textarea>
-                    <button type="submit">Send Message</button>
+                    <button type="submit" className="submit-button">Send Message</button>
                 </form>
             </div>
         </div>
