@@ -67,20 +67,25 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 98%;
-    padding: 20px 100px;
+    width: 100%;
+    padding: 10px 10px;
     position: absolute;
     top: 0;
+    box-sizing: border-box;
 }
 
 .logo img {
-    height: 50px;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+    display: block;
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    margin-right: 10px;
     display: flex;
 }
 

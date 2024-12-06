@@ -1,5 +1,6 @@
 import React from 'react';
-import './HomeScreen.css';  // Import the CSS file for styling
+import './HomeScreen.css';// Import the CSS file for styling
+import logo from './logo.png';
 
 function HomeScreen() {
     return (
@@ -7,7 +8,7 @@ function HomeScreen() {
             {/* Logo */}
             <header className="header">
                 <div className="logo">
-                    <img src="public/logo.png" alt="logo" />  {/* Replace with the path to your logo */}
+                    <img src={logo} alt="logo"/> {/* Use the imported 'logo' variable */}
                 </div>
                 {/* Navigation */}
                 <nav>
